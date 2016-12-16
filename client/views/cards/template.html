@@ -1,8 +1,8 @@
 <template name="cards">
   {{#if Template.subscriptionsReady}}
    <div class="row">
-    {{#each initech}}
-      {{> charts}}
+    {{#each charts}}
+      {{> chart}}
     {{/each}}
   </div>
   {{else}}

@@ -1,5 +1,5 @@
 Template.cards.helpers({
-    initech: function() { 
-        return Initech.find(); 
+    charts: function() { 
+        return Charts.find(); 
     }
 });

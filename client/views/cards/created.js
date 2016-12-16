@@ -1,3 +1,3 @@
 Template.cards.onCreated(function(){
-  this.subscribe("initech");
+  this.subscribe("charts");
 });

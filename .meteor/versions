@@ -32,6 +32,7 @@ jquery@1.11.8
 launch-screen@1.0.11
 livedata@1.0.18
 logging@1.0.12
+matb33:collection-hooks@0.8.1
 materialize:materialize@0.96.1
 meteor@1.2.16
 meteor-base@1.0.4
