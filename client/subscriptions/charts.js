@@ -1,1 +1,1 @@
-Meteor.subscribe('charts');
+//Meteor.subscribe('charts');

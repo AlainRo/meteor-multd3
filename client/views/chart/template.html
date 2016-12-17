@@ -3,7 +3,10 @@
       <div class="card">
         <div class="card-content">
           <span class="card-title black-text">{{employee}}</span>
-          <div class="chart" id="chart{{_id}}"></div> 
+          <div class="chart" id="chart{{_id}}">
+            {{render}}
+          </div> 
+
         </div>
         <div class="card-action">
           Department: {{department}}

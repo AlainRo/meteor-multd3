@@ -2,7 +2,9 @@
   {{#if Template.subscriptionsReady}}
    <div class="row">
     {{#each charts}}
-      {{> chart}}
+    	{{#if dirty c = charts}}
+      		{{> chart}}
+      	{{/if}}
     {{/each}}
   </div>
   {{else}}
